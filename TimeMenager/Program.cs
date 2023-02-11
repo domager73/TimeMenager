@@ -14,6 +14,6 @@ Console.ReadLine();
 
 TimeManeger timemen = new TimeManeger(strStart, strLast);
 
-timemen.TranslateHours();
 timemen.TranslateDays();
+timemen.TranslateHours();
 timemen.TranslateMinutes();
